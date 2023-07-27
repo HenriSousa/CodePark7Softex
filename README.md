@@ -34,3 +34,7 @@ B: Veículos com quatro rodas, que acomodam até oito pessoas e seu peso é de a
 C: Veículos com quatro rodas ou mais e com peso entre 3500 e 6000 kg;
 D: Veículos com quatro rodas ou mais e que acomodam mais de oito pessoas;
 E: Veículos com quatro rodas ou mais e com mais de 6000 kg.
+
+# CodePark12 Softex
+
+Faça um código, utilizando o Google Blockly, que execute a contagem regressiva de uma bomba, informando o número de segundos para explodir. Ele deverá mostrar a mensagem “iniciando contagem regressiva”, os segundos passados e, no final, a mensagem “BUM!”.
