@@ -82,4 +82,13 @@ O código deve perguntar se deseja finalizar a votação depois do voto. Caso o 
 
 Quando a votação for finalizada, o código deverá mostrar o vencedor, aquele com o maior número de votos e, também, a quantidade de votos de cada candidato, os brancos e nulos. 
 
+# CodePark17 Softex
+
+Você deve criar três listas em JavaScript:
+
+1. para guardar os nomes de dez pessoas;
+2. para guardar as suas idades;
+3. para guardar as suas cores favoritas.
+
+Em seguida, imprima essas listas. Depois, faça algumas modificações, alterando uma cor e uma idade. Ao terminar, imprima novamente todas as informações das três listas.
 
