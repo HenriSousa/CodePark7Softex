@@ -97,3 +97,11 @@ Em seguida, imprima essas listas. Depois, faça algumas modificações, alterand
 Nesta atividade, você deve criar um código em JavaScript com uma matriz bidimensional para armazenar informações sobre animais e as suas características.
 
 Cada linha deve representar um animal e cada coluna terá as diferentes informações sobre ele, como nome, espécie e idade.
+
+# CodePark19 Softex
+
+Considere o array [3, 7, 9, 1, 0].
+
+O primeiro elemento inserido foi o 3, o segundo foi o 7 e assim por diante, seguindo a ordem.
+
+Levando em conta as três estruturas de dados (fila, lista e pilha) e as suas regras de operações, qual seria a sequência dos números removidos em cada uma delas para esvaziá-las completamente utilizando o array mencionado?
