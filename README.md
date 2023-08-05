@@ -111,3 +111,11 @@ Levando em conta as três estruturas de dados (fila, lista e pilha) e as suas re
 Crie uma lista encadeada em que cada elemento representa uma pessoa.
 
 Ela precisa conter informações como nome, idade e referência ao filho dela.
+
+# CodePark21 Softex
+
+Temos o array [15, 8, 10, 25, 12, 30, 5, 20, 18, 7] e precisamos criar um código em JavaScript para encontrar o valor 20.
+
+Para isso, temos que escolher entre realizar uma busca linear ou binária de acordo com a que for mais adequada para essa situação.
+
+Codifique a solução mais eficiente para buscar o número 20 no array.
