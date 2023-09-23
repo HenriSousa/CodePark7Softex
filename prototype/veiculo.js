@@ -49,16 +49,16 @@ class Aplicacao {
 
     cloneVeiculos() {
         const clones = [];
-        for (const veiculo of this.veiculos) {
-            clones.push(veiculo.clone());
-        }
+        this.veiculos.forEach(element => {
+            clones.push(element)            
+        });
         return clones;
     }
 
     imprimirVeiculos() {
         const clones = this.cloneVeiculos();
         for (const veiculo of clones) {
-            console.log(veiculo.represent())
+            console.log(veiculo.represent() + "\n");
         }
     }
 }
