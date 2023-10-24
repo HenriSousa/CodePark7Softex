@@ -1,0 +1,25 @@
+
+As seis regras fundamentais que compõem as restrições da arquitetura REST (Representational State Transfer) são descritas no "Fielding's Dissertation on Architectural Styles and
+the Design of Network-based Software Architectures" de Roy Fielding, que é um dos coautores da especificação HTTP/1.1. Essas regras ajudam a definir o que torna uma API uma API REST. 
+Aqui estão as seis regras de uma API REST:
+
+1 - Arquitetura Cliente-Servidor: Essa é a regra fundamental da arquitetura REST. Ela impõe uma separação clara entre o cliente (que faz as solicitações) 
+e o servidor (que processa as solicitações). Essa separação permite que cada parte evolua de forma independente, desde que sejam mantidos os padrões de comunicação definidos.
+
+2 - Estado Representacional: Os recursos (como dados, informações ou funcionalidades) em uma API REST são representados como recursos no servidor e acessados por meio de URIs (Uniform Resource Identifiers). 
+Cada recurso é representado de forma única, e a representação do estado desse recurso é enviada ao cliente quando solicitado.
+
+3 - Comunicação sem Estado: Cada solicitação do cliente para o servidor em uma API REST deve conter todas as informações necessárias para compreender e processar a solicitação. 
+Isso significa que as solicitações não devem depender de nenhum estado mantido no servidor entre solicitações. Cada solicitação é independente e autocontida.
+
+4 - Interface Uniforme: A interface de uma API REST deve ser uniforme e consistente. Isso implica que a API deve seguir um conjunto padrão de métodos (verbos HTTP) para realizar operações em recursos, 
+como GET (para obter), POST (para criar), PUT (para atualizar) e DELETE (para excluir). Além disso, a API deve usar um conjunto padronizado de códigos de status HTTP para comunicar o resultado de uma solicitação.
+
+5 - Sistema em Camadas: Uma API REST pode ser implementada em camadas, com várias camadas intermediárias entre o cliente e o servidor. Isso permite a escalabilidade, a segurança e a flexibilidade, 
+mas o cliente não precisa saber quantas camadas existem ou interagir diretamente com elas. Cada camada apenas interage com a camada adjacente.
+
+6 - Código sob Demanda (Opcional): Essa regra é opcional e permite que o servidor forneça funcionalidades adicionais ou scripts executáveis no cliente, como JavaScript. Essa regra é raramente usada em APIs REST públicas, 
+mas pode ser útil em cenários específicos.
+
+Essas seis regras, quando seguidas, ajudam a criar APIs REST que são escaláveis, flexíveis, independentes do estado e fáceis de entender e usar. 
+As APIs REST são amplamente adotadas devido à sua simplicidade e ao fato de estarem alinhadas com os princípios fundamentais da Web.
