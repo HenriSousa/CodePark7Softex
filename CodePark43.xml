@@ -1,0 +1,37 @@
+<definitions name="CustomerService" targetNamespace="http://example.com/customerservice">
+    <types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+        <!-- Definir os tipos de dados, como CustomerInfo -->
+      </schema>
+    </types>
+    <message name="GetCustomerRequest">
+      <part name="customerID" type="xsd:int"/>
+    </message>
+    <message name="GetCustomerResponse">
+      <part name="customerData" type="tns:CustomerInfo"/>
+    </message>
+    <portType name="CustomerServicePort">
+      <operation name="GetCustomer">
+        <input message="tns:GetCustomerRequest"/>
+        <output message="tns:GetCustomerResponse"/>
+      </operation>
+    </portType>
+    <binding name="CustomerServiceSOAPBinding" type="tns:CustomerServicePort">
+      <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+      <operation name="GetCustomer">
+        <soap:operation soapAction="http://example.com/customerservice/GetCustomer"/>
+        <input>
+          <soap:body use="literal"/>
+        </input>
+        <output>
+          <soap:body use="literal"/>
+        </output>
+      </operation>
+    </binding>
+    <service name="CustomerService">
+      <port name="CustomerServicePort" binding="tns:CustomerServiceSOAPBinding">
+        <soap:address location="http://example.com/customerservice"/>
+      </port>
+    </service>
+  </definitions>
+  
