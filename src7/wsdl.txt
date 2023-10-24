@@ -1,0 +1,18 @@
+O que é WSDL?
+WSDL significa "Web Services Description Language". É um formato XML que descreve a interface de um serviço web. 
+WSDL é usado para definir como os serviços web devem ser acessados e quais operações eles oferecem. As principais funções do WSDL são:
+
+Descrição do serviço: O WSDL define os métodos disponíveis, seus parâmetros e tipos de dados usados nas requisições e respostas.
+
+Localização do serviço: Fornece informações sobre onde o serviço está localizado, incluindo o endpoint da URL.
+
+Protocolos de comunicação: Especifica como os clientes devem interagir com o serviço, incluindo os protocolos de comunicação, como HTTP, SOAP, etc.
+
+Tipos de dados e mensagens: Define a estrutura de dados usada nas mensagens, incluindo os tipos de dados XML.
+
+Binding e transporte: Especifica como as mensagens são codificadas e transportadas, incluindo detalhes como codificação, protocolo de transporte, etc.
+
+O WSDL é particularmente útil em ambientes de integração de sistemas, onde diferentes aplicativos e serviços precisam se comunicar de forma padronizada.
+
+Em resumo, os métodos HTTP em JavaScript permitem que você realize requisições a serviços web, 
+enquanto o WSDL é uma linguagem de descrição que define como os serviços web devem ser acessados e como eles funcionam. Ambos são fundamentais para o desenvolvimento de aplicativos web e integração de sistemas.
