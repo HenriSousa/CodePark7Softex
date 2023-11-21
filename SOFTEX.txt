@@ -1,0 +1,30 @@
+CREATE DATABASE BlogDB;
+
+CREATE TABLE Post 
+( 
+ PostID INT PRIMARY KEY,  
+ Titulo VARCHAR(n) NOT NULL,  
+ Conteudo VARCHAR(n) NOT NULL,  
+ Data de Publicacao DATE NOT NULL,  
+ AutorID INT,  
+); 
+
+CREATE TABLE Autor 
+( 
+ AutorID INT PRIMARY KEY,  
+ Nome do Autor VARCHAR(n) NOT NULL,  
+ Email VARCHAR(n) NOT NULL,  
+); 
+
+CREATE TABLE Comentario 
+( 
+ ComentarioID VARCHAR(n) PRIMARY KEY,  
+ Texto do Comentario VARCHAR(n) NOT NULL,  
+ Data de Comentario DATE NOT NULL,  
+ AutorID INT,  
+ PostID INT,  
+); 
+
+ALTER TABLE Post ADD FOREIGN KEY(AutorID) REFERENCES Autor (AutorID)
+ALTER TABLE Comentario ADD FOREIGN KEY(AutorID) REFERENCES Autor (AutorID)
+ALTER TABLE Comentario ADD FOREIGN KEY(PostID) REFERENCES Post (PostID)
